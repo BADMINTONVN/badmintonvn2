@@ -1,0 +1,192 @@
+.section-shop {
+    height: 500px;
+    //background: rgb(198, 228, 218);
+    //border: 1px solid red;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .shop-content {
+        margin: 0 50px;
+        display: flex;
+        flex-direction: column;
+
+        .court-header {
+            height: 60px;
+            //border: 1px solid green;
+            padding-top: 20px;
+
+            .title-court {
+                font-size: 25px;
+                font-weight: 600;
+                //padding-top: 20px;
+                color: rgb(13, 179, 190);
+            }
+
+            .button-court {
+                float: right;
+                padding: 10px 15px;
+                border: none;
+                outline: none;
+                display: block;
+                background: rgb(241, 237, 237);
+
+                &:hover {
+                    color: blue;
+                    background: palevioletred;
+                }
+
+            }
+
+        }
+    }
+
+
+    .img-customize1 {
+        height: 250px;
+        //border: 1px solid orange;
+        //background: green;
+        //z-index: 1000;
+        margin-top: 25px;
+
+        .img-court1 {
+            height: 250px;
+            width: 250px;
+            background: url('../../../assets/shops/yonex.webp');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: white;
+        }
+
+    }
+
+    .img-customize2 {
+        height: 250px;
+        //border: 1px solid orange;
+        //background: green;
+        //z-index: 1000;
+        margin-top: 25px;
+
+
+        .img-court2 {
+            height: 250px;
+            width: 290px;
+            background: url('../../../assets/shops/lining.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: white;
+        }
+    }
+
+    .img-customize3 {
+        height: 250px;
+        //border: 1px solid orange;
+        //background: green;
+        //z-index: 1000;
+        margin-top: 25px;
+
+
+        .img-court3 {
+            height: 250px;
+            width: 280px;
+            background: url('../../../assets/shops/victor.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: white;
+        }
+    }
+
+    .img-customize4 {
+        height: 250px;
+        //border: 1px solid orange;
+        //background: green;
+        //z-index: 1000;
+        margin-top: 25px;
+
+
+        .img-court4 {
+            height: 250px;
+            width: 250px;
+            background: url('../../../assets/shops/vnb.jpg');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: white;
+        }
+    }
+
+    .img-customize5 {
+        height: 250px;
+        //border: 1px solid orange;
+        //background: green;
+        //z-index: 1000;
+        margin-top: 25px;
+
+
+        .img-court5 {
+            height: 250px;
+            width: 250px;
+            background: url('../../../assets/shops/saigon.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: white;
+        }
+    }
+
+    .img-customize6 {
+        height: 250px;
+        //border: 1px solid orange;
+        //background: green;
+        //z-index: 1000;
+        margin-top: 25px;
+
+
+        .img-court6 {
+            height: 250px;
+            width: 250px;
+            background: url('../../../assets/shops/binhchanh.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: white;
+        }
+    }
+
+    .position {
+        font-size: 18px;
+        color: rgb(13, 179, 190);
+        margin-top: 10px;
+        margin-left: 65px;
+
+
+    }
+
+}
+
+// reset slick slider css
+
+.slick-prev {
+    //font-size: 100px !important;
+    height: 30px !important;
+    width: 30px !important;
+    //border: 2px solid red !important;
+    //position: relative !important;
+    left: -10px !important;
+    //margin-top: 100px;
+    //color: red !important;
+    background-color: goldenrod !important;
+    z-index: 100;
+}
+
+.slick-next {
+    height: 30px !important;
+    width: 30px !important;
+    //border: 1px solid red !important;
+    right: -10px !important;
+    //margin-top: -25px;
+    background-color: goldenrod !important;
+
+}

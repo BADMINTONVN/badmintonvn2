@@ -1,0 +1,39 @@
+.section-about {
+    border-top: 1px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
+    height: 600px;
+    margin-left: 100px;
+
+    .about-header {
+        margin-top: 30px;
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    .about-content {
+        margin-top: 50px;
+        display: flex;
+
+        .content-left {
+            width: 60%;
+        }
+        
+
+        .content-right {
+            width: 40%;
+            height: 350px;
+            //width: 250px;
+            margin-top: 50px;
+            cursor: pointer;
+            background: url('../../../assets/news1.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: white;
+
+        }
+        
+    }
+
+}
